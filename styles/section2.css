@@ -1,0 +1,41 @@
+.container {
+    background: linear-gradient(rgba(146, 145, 145, 0.8), rgba(0, 0, 0, 0.8));
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    width: 400px;
+    max-width: 600px; /* İstenilen genişliği ayarlayabilirsiniz. */
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+.container a {
+    color: #3498db; /* Bağlantı rengini belirleyebilirsiniz. */
+    text-decoration: none;
+}
+.container a:hover {
+    text-decoration: underline; /* Hover durumunda altı çizili görüntüleme. */
+    transform: scale(1.05);
+}
+.container-github-description{
+    font-size: 15px;
+}
+.container-github-title{
+    font-size: 15px;
+}
+.container-grid{
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+    row-gap: 10px;
+    transition: transform 0.3s ease;
+}
+
+.container-grid:hover {
+    transform: scale(1.05);
+}
+
+.most{
+    transition: transform 0.3s ease;
+}
+.most:hover{
+    transform: scale(1.05);
+}
